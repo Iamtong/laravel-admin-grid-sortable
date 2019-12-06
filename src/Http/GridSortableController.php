@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 class GridSortableController extends Controller
 {
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
         $sorts = $request->get('_sort');
 
