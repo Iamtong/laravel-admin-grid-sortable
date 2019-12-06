@@ -4,7 +4,7 @@ laravel-admin grid-sortable
 ## Installation
 
 ```shell
-composer require laravel-admin-ext/grid-sortable -vvv
+composer require Iamtong/laravel-admin-grid-sortable -vvv
 ```
 
 Publish asserts
