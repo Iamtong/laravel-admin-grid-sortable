@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Iamtong\LaravelAdmin\GridSortable\Http;
+namespace iamtong\LaravelAdmin\GridSortable\Http;
 
 
 namespace Encore\Sortable;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Iamtong\LaravelAdmin\GridSortable\Displayers;
+namespace iamtong\LaravelAdmin\GridSortable\Displayers;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Grid\Displayers\AbstractDisplayer;

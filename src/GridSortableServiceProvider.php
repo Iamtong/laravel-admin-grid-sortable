@@ -1,6 +1,6 @@
 <?php
 
-namespace Iamtong\LaravelAdmin\GridSortable;
+namespace iamtong\LaravelAdmin\GridSortable;
 
 use Encore\Admin\Admin;
 use Illuminate\Support\ServiceProvider;

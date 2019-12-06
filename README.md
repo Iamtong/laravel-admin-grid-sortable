@@ -10,7 +10,7 @@ composer require laravel-admin-ext/grid-sortable -vvv
 Publish asserts
 
 ```shell
-php artisan vendor:publish --provider="Iamtong\LaravelAdmin\GridSortable\GridSortableServiceProvider"
+php artisan vendor:publish --provider="iamtong\LaravelAdmin\GridSortable\GridSortableServiceProvider"
 ```
 
 ## Usage

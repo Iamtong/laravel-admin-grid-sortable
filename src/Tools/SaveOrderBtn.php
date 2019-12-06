@@ -1,6 +1,6 @@
 <?php
 
-namespace Iamtong\LaravelAdmin\GridSortable\Tools;
+namespace iamtong\LaravelAdmin\GridSortable\Tools;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Grid\Tools\AbstractTool;
