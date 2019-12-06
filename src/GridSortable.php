@@ -5,6 +5,8 @@ namespace iamtong\LaravelAdmin\GridSortable;
 use Encore\Admin\Extension;
 use Encore\Admin\Grid;
 use Encore\Admin\Grid\Tools\ColumnSelector;
+use iamtong\LaravelAdmin\GridSortable\Displayers\SortableDisplay;
+use iamtong\LaravelAdmin\GridSortable\Tools\SaveOrderBtn;
 use Spatie\EloquentSortable\Sortable;
 
 class GridSortable extends Extension
