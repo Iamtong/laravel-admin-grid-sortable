@@ -18,7 +18,7 @@ class GridSortableServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
-                [$assets => public_path('vendor/iamtong/laravel-admin-grid-sortable')],
+                [$assets => public_path('vendor/laravel-admin-ext/grid-sortable')],
                 'laravel-admin-grid-sortable'
             );
         }
@@ -28,7 +28,7 @@ class GridSortableServiceProvider extends ServiceProvider
         });
 
         Admin::booting(function () {
-            Admin::headerJs('vendor/iamtong/laravel-admin-grid-sortable/jquery-ui.min.js');
+            Admin::headerJs('vendor/laravel-admin-ext/grid-sortable/jquery-ui.min.js');
         });
 
         $extension->install();
