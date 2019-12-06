@@ -1,5 +1,5 @@
 {
-    "name": "Iamtong/laravel-admin-grid-sortable",
+    "name": "iamtong/laravel-admin-grid-sortable",
     "description": "Sort the grid data by drag and drop rows",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "grid", "sortable"],
@@ -21,13 +21,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Iamtong\\LaravelAdmin\\GridSortable\\": "src/"
+            "iamtong\\LaravelAdmin\\GridSortable\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Iamtong\\LaravelAdmin\\GridSortable\\GridSortableServiceProvider"
+                "iamtong\\LaravelAdmin\\GridSortable\\GridSortableServiceProvider"
             ]
         }
     }
