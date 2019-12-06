@@ -4,7 +4,6 @@
 namespace iamtong\LaravelAdmin\GridSortable\Http;
 
 
-namespace Encore\Sortable;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
